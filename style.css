@@ -42,21 +42,19 @@ button:not(.custom-btn) {
 button.save-btn {
   background-color: #1c1b1b;
   color: white
-  emoji: size 20px;
 }
 
 button.remove-btn {
   background-color: #1c1b1b;
   color: white;
-  emoji: size 20px;
 }
 
 .btn-2 {
   background: rgb(48, 11, 211);
   background: #09ed4e
   border: none;
-  
 }
+
 .btn-2:before {
   height: 0%;
   width: 2px;
