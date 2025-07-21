@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farming Profile Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Farming Profile Manager</h1>
+    <p>Track all your farming accounts, securely and effortlessly (private & simple)</p>
+  </div>
+
+  <div class="welcome-container">
+    <span id="editNameBtn" style="cursor:pointer;"></span>
+    <i><span id="welcomeMessage"></span></i>
+
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button id="saveNameBtn">Save</button>
+  </div>
+
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search profiles">
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Chrome Profile</th>
+        <th>Email</th>
+        <th>Twitter</th>
+        <th>Discord</th>
+        <th>Telegram</th>
+        <th>Wallet Address</th>
+        <th>Notes</th>
+        <th>Save</th>
+        <th>Remove</th>
+      </tr>
+    </thead>
+    <tbody id="profilesTableBody"></tbody>
+  </table>
+
+  <div class="controls">
+  <button id="addProfileBtn" class="btn-2">
+    <span>Add Profile ➕</span>
+  </button>
+</div>
+
+
+  <footer class="page-footer">
+      Made by <a href="https://x.com/Barrel_9x" target="_blank">
+        Barrel <img src="https://abs.twimg.com/favicons/twitter.2.ico" alt="X" class="x-logo">
+      </a>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

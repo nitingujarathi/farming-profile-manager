@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1fd1f9, #b621fe);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 98%;
+}
+
+th, td {
+  border: 3px solid #444;
+  padding: 8px;
+}
+
+input {
+  width: 100px;
+  padding: 4px;
+  font-size: 14px;
+}
+
+input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+button:not(.custom-btn) {
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+button.save-btn {
+  background-color: #1c1b1b;
+  color: white
+  emoji: size 20px;
+}
+
+button.remove-btn {
+  background-color: #1c1b1b;
+  color: white;
+  emoji: size 20px;
+}
+
+.btn-2 {
+  background: rgb(48, 11, 211);
+  background: #09ed4e
+  border: none;
+  
+}
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+#addProfileBtn {
+  color: #fff;
+}
+
+.btn-2:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(22, 22, 22, 0.4);
+}
+
+
+.controls {
+  margin: 20px;
+}
+
+footer {
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+
+
+footer a {
+  color: #0ff;
+  text-decoration: none;
+}
+
+.welcome-container {
+  margin: 10px;
+}
+
+#welcomeMessage span#nameNeon {
+  font-weight: bold;
+  color: #fcf8fd;
+}
+
+.search-container {
+  margin: 10px;
+}
+
+.light-mode {
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+.light-mode table th, .light-mode table td {
+  border-color: #ccc;
+}
+
+.light-mode footer a {
+  color: #0077cc;
+}
+
+/* General input style */
+td input {
+  padding: 4px;
+  font-size: 14px;
+  height: 30px;    /* adjust height */
+  box-sizing: border-box;
+}
+
+/* Column-specific widths */
+td:nth-child(2) input { width: 80px; }    /* Chrome */
+td:nth-child(3) input { width: 22px; }   /* Email */
+td:nth-child(4) input { width: 12px; }   /* Twitter */
+td:nth-child(5) input { width: 12px; }   /* Discord */
+td:nth-child(6) input { width: 12px; }   /* Telegram */
+td:nth-child(7) input { width: 18px; }   /* Wallet */
+td:nth-child(8) input { width: 20px; }   /* Notes */
+
+td input {
+  height: 30px;
+}
+
+/* Make welcome message bigger */
+#welcomeMessage {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Move search bar to top-left corner */
+.search-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 0;
+}
+
+/* Make Twitter icon smaller & aligned */
+footer a img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+#editNameBtn {
+  font-size: 14px;  /* or 14px for smaller */
+  vertical-align: middle;
+  right: 10px;
+}
